@@ -305,6 +305,7 @@
   <ItemGroup>
     <Content Include="Command_Pattern.md" />
     <Content Include="Flyweight.md" />
+    <Content Include="Observer.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
