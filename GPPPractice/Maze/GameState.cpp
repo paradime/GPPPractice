@@ -77,6 +77,7 @@ void GameState::UpdateMap()
         Map->at(CurrentCoordinates.row)[CurrentCoordinates.col-1] =
             Board->at(CurrentCoordinates.row)[CurrentCoordinates.col-1];
     }
+    HasWon = Board->at(CurrentCoordinates.row)[CurrentCoordinates.col] == finish;
 }
 
 bool GameState::NorthIsInBounds()

@@ -300,11 +300,12 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Maze\CommandPattern\Command.h" />
     <ClInclude Include="Maze\GameState.h" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Command_Pattern.md" />
     <Content Include="Flyweight.md" />
+    <Content Include="Maze\CommandPattern\Command_Pattern.md" />
     <Content Include="Observer.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
